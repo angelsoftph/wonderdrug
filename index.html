@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WonderDrug</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <div
+      id="main"
+      class="flex flex-col mt-14 gap-12 items-center md:flex-row lg:gap-0"
+    >
+      <div
+        class="flex flex-row w-full items-center justify-center md:w-1/3 lg:w-1/3 md:items-end md:justify-end"
+      >
+        <div
+          class="black-boxes grid grid-cols-2 gap-x-[20px] gap-y-[12px] md:grid-cols-1 lg:grid-cols-2"
+        >
+          <div
+            class="black-box bg-black text-white flex flex-col gap-y-2 items-center justify-center rounded-lg"
+          >
+            <img
+              src="assets/images/icon-vitamin.svg"
+              height="45"
+              width="45"
+              alt="Rich in Antioxidants"
+            />
+            Rich in Antioxidants
+          </div>
+          <div
+            class="black-box bg-black text-white flex flex-col gap-y-2 items-center justify-center rounded-lg"
+          >
+            <img
+              src="assets/images/icon-diabetes.svg"
+              height="49"
+              width="49"
+              alt="Regulates Blood Sugar"
+            />
+            Regulates Blood Sugar
+          </div>
+          <div
+            class="black-box bg-black text-white flex flex-col gap-y-2 items-center justify-center rounded-lg"
+          >
+            <img
+              src="assets/images/icon-kidney.svg"
+              height="46"
+              width="46"
+              alt="Kidney's Health"
+            />
+            Kidney's Health
+          </div>
+          <div
+            class="black-box bg-black text-white flex flex-col gap-y-2 items-center justify-center rounded-lg"
+          >
+            <img
+              src="assets/images/icon-heart.svg"
+              height="49"
+              width="49"
+              alt="Heart's Health"
+            />
+            Heart's Health
+          </div>
+        </div>
+      </div>
+      <div class="flex w-full md:w-1/3 lg:1/3">
+        <div id="capsule-wrapper" class="flex w-full justify-center">
+          <div id="capsule" class="flex flex-col items-center">
+            <div
+              id="capsule-top"
+              class="flex flex-col gap-3 items-center justify-center"
+            >
+              <div class="icon-storm"></div>
+              <p>BEST FOR?</p>
+            </div>
+            <div id="capsule-bot" class="flex justify-center text-center">
+              <p>Aminoacids, Electrolytes, Vitamins &amp; Minerals</p>
+            </div>
+            <div id="yoga"></div>
+            <div id="vector"></div>
+          </div>
+          <div id="splash"></div>
+        </div>
+      </div>
+      <div class="flex flex-row md:w-1/3 lg:1/3">
+        <div
+          class="black-boxes grid grid-cols-2 gap-x-[20px] gap-y-[12px] md:grid-cols-1 lg:grid-cols-2"
+        >
+          <div
+            class="black-box bg-black text-white flex flex-col gap-y-2 items-center justify-center rounded-lg"
+          >
+            <img
+              src="assets/images/icon-yoga.svg"
+              height="53"
+              width="53"
+              alt="Gym & Fitness"
+            />
+            Gym &amp Fitness;
+          </div>
+          <div
+            class="black-box bg-black text-white flex flex-col gap-y-2 items-center justify-center rounded-lg"
+          >
+            <img
+              src="assets/images/icon-skin.svg"
+              height="52"
+              width="52"
+              alt="Beauty & Skin Care"
+            />
+            Beauty &amp; Skin Care
+          </div>
+          <div
+            class="black-box bg-black text-white flex flex-col gap-y-2 items-center justify-center rounded-lg"
+          >
+            <img
+              src="assets/images/icon-molecule.svg"
+              height="48"
+              width="48"
+              alt="Hydration & Electrolytes"
+            />
+            Hydration &amp; Electrolytes
+          </div>
+          <div
+            class="black-box bg-black text-white flex flex-col gap-y-2 items-center justify-center rounded-lg"
+          >
+            <img
+              src="assets/images/icon-heart.svg"
+              height="43"
+              width="43"
+              alt="100% Organic"
+            />
+            100% Organic
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="flex flex-col mt-10 p-5 items-center justify-center lg:hidden">
+      <div id="coconut"></div>
+      <h4 class="mt-4 mb-4">The Process</h4>
+      <h2 class="mx-4 text-center">
+        We prioritize having the shortest supply &amp; manufacturing chains
+        possible and maintaining ethical production standards.
+      </h2>
+      <p class="mt-4 mb-10 learn-more">Learn More</p>
+      <div id="process-wrapper">
+        <div class="vertical-line"></div>
+        <ul class="process-list">
+          <li>
+            <div>01.</div>
+            <div>
+              <h3>Harvesting</h3>
+              <p>
+                Ingredients are grown in fertile soil in central Thailand
+                &ndash; then harvested and transferred to our facility where
+                they are cleaned and prepared for processing.
+              </p>
+            </div>
+          </li>
+          <li>
+            <div>02.</div>
+            <div>
+              <h3>Processing</h3>
+              <p>
+                Ingredients arrive at the manufacturing facility clean of soil
+                and debris. They are sent through a washing process and staged
+                for juicing or for the puree line.
+              </p>
+            </div>
+          </li>
+          <li>
+            <div>03.</div>
+            <div>
+              <h3>Bottling</h3>
+              <p>
+                Product is bottled into PET #1 plastic bottles and capped, then
+                rinsed with an organic sanitizing solution. PET plastic is the
+                most widely recycled.
+              </p>
+            </div>
+          </li>
+          <li>
+            <div>04.</div>
+            <div>
+              <h3>HPP</h3>
+              <p>
+                Products are sent through the HPP process &ndash; which involves
+                the application of pressure (600 BAR), for about 2 minutes. The
+                process crushes any potential bacteria or foodborne.
+              </p>
+            </div>
+          </li>
+          <li>
+            <div>05.</div>
+            <div>
+              <h3>Freeze</h3>
+              <p>
+                After HPP, the bottles are air-dried and carted into the blast
+                freezer where they are frozen solid within hours. Once frozen,
+                the bottles are boxed and prepared for loading.
+              </p>
+            </div>
+          </li>
+          <li>
+            <div>06.</div>
+            <div>
+              <h3>Deliver</h3>
+              <p>
+                Products are delivered either to our distribution partner or
+                directly to the customers' home.Customer receives the bottle and
+                stored it in the refrigerator before drinking it.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div id="process-circle" class="flex flex-row mb-20 justify-center">
+      <ul class="processes w-1/4 knob-text">
+        <li class="li-1 flex flex-col items-end text-right">
+          <h3>Harvesting</h3>
+          <p>
+            Ingredients are grown in fertile soil in central Thailand &ndash;
+            then harvested and transferred to our facility where they are
+            cleaned and prepared for processing.
+          </p>
+        </li>
+        <li class="li-2 flex flex-col items-end text-right">
+          <h3>Processing</h3>
+          <p>
+            Ingredients arrive at the manufacturing facility clean of soil and
+            debris. They are sent through a washing process and staged for
+            juicing or for the puree line.
+          </p>
+        </li>
+        <li class="li-3 flex flex-col items-end text-right">
+          <h3>Bottling</h3>
+          <p>
+            Product is bottled into PET #1 plastic bottles and capped, then
+            rinsed with an organic sanitizing solution. PET plastic is the most
+            widely recycled.
+          </p>
+        </li>
+      </ul>
+      <div class="w-1/2 circle">
+        <div class="flex flex-col mx-10 items-center justify-center">
+          <div id="coconut"></div>
+          <h4 class="mt-4 mb-4">The Process</h4>
+          <h2 class="mx-4 text-center">
+            We prioritize having the shortest supply &amp; manufacturing chains
+            possible and maintaining ethical production standards.
+          </h2>
+          <p class="mt-4 mb-10 learn-more">Learn More</p>
+        </div>
+      </div>
+      <ul class="processes w-1/4 knob-text">
+        <li class="li-4 flex flex-col justify-end">
+          <h3>Deliver</h3>
+          <p>
+            Products are delivered either to our distribution partner or
+            directly to the customers' home.Customer receives the bottle and
+            stored it in the refrigerator before drinking it.
+          </p>
+        </li>
+        <li class="li-5 flex flex-col justify-end">
+          <h3>Freeze</h3>
+          <p>
+            After HPP, the bottles are air-dried and carted into the blast
+            freezer where they are frozen solid within hours. Once frozen, the
+            bottles are boxed and prepared for loading.
+          </p>
+        </li>
+        <li class="li-6 flex flex-col justify-end">
+          <h3>HPP</h3>
+          <p>
+            Products are sent through the HPP process &ndash; which involves the
+            application of pressure (600 BAR), for about 2 minutes. The process
+            crushes any potential bacteria or foodborne.
+          </p>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
