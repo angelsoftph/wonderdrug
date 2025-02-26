@@ -2,13 +2,13 @@ A Shopify section template.
 
 Compatible with Dawn theme. To install, append this block under "featured_collection":
 
-```"custom-section": {
+`"custom-section": {
   "type": "custom-section",
   "settings": {
     "title": "Custom Section Title",
     "description": "Custom section description text"
   }
-}```
+}`
 
 Get `tailwind.css` from the TailwindCSS CDN, and upload it to via your Shopify Admin's Assets page. Get the link to the uploaded CSS file, and insert the code to in the file `layout/theme.liquid`
 
