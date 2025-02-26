@@ -16,9 +16,9 @@ Get `tailwind.css` from the TailwindCSS CDN, and upload it to via your Shopify A
 
 `<script defer src="https://cdn.shopify.com/s/files/1/0726/6628/4263/files/tailwindcss.js?v=1740539956"></script>`
 
-Replace the `src` with the file you uploaded.
+Replace the script `src` with the file you uploaded.
 
-In the `section` folder, create a new file called `custom-section.liquid` and copy the contents with the contents of this file:
+In the `sections` folder, create a new file called `custom-section.liquid` and copy the contents with the contents of this file:
 `https://github.com/angelsoftph/wonderdrug/blob/master/sections/custom-section.liquid`
 
 Demo: https://sxh10e-cn.myshopify.com/
